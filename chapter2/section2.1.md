@@ -19,7 +19,7 @@ MacBook-Pro:coo$ gem -v
 
 更换源命令 ：
 ```
-gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 ```
 
 接下来查看源路径是否替换成功，执行命令：
