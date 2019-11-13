@@ -194,3 +194,22 @@ s.libraries = 'z','sqlite3.0', 'stdc++.6.0.9', 'c++'
 ```
 
 ![](Resource/5_7_1.png)
+
+
+### 问题十一 远程私有库索引库更新
+
+* /Users/doctor/Library/Caches/CocoaPods/search_index.json
+
+* 执行 ``pod install `` 无法查阅到同事更新后的版本
+
+```
+[!] CocoaPods could not find compatible versions for pod "DNFontKit":
+  In Podfile:
+    DNFontKit (= 0.0.5)
+
+None of your spec sources contain a spec satisfying the dependency: `DNFontKit (= 0.0.5)`.
+
+```
+
+* 执行pod update 或者  `pod repo update` or with `pod install --repo-update`
+
